@@ -9,6 +9,7 @@ public class A {
     public int getA1() {
         return A1;
     }
+
     public void setA1(int a1) {
         A1 = a1;
     }
@@ -16,6 +17,7 @@ public class A {
     public double getA2() {
         return A2;
     }
+
     public void setA2(double a2) {
         A2 = a2;
     }
@@ -27,6 +29,12 @@ public class A {
     public void MA2() {
         System.out.println("MA2");
     }
+
+    // Novo método getSoma
+    public int getSoma(int a, int b) {
+        return a + b;
+    }
+}
 
     public void MA3() {
         System.out.println("Alteração a classe A partir do clone");
